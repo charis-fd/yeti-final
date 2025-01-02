@@ -1,12 +1,12 @@
 module.exports = [
+  'strapi::logger',
   'strapi::errors',
-  {
-    name: 'strapi::cors',
-    config: {
-      enabled: true,
-      origin: ['https://car-oil-tracker.onrender.com'],
-      credentials: true,
-    },
-  },
-  // ... rest of middlewares
+  'strapi::security',
+  'strapi::cors',
+  'strapi::poweredBy',
+  'strapi::query',
+  'strapi::body',
+  'strapi::session',
+  'strapi::favicon',
+  'strapi::public',
 ];
