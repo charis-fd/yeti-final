@@ -4,7 +4,8 @@
   "info": {
     "singularName": "oil-entry",
     "pluralName": "oil-entries",
-    "displayName": "Oil entry"
+    "displayName": "entry",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

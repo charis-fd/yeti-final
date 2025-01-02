@@ -372,7 +372,8 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
 export interface ApiOilEntryOilEntry extends Struct.CollectionTypeSchema {
   collectionName: 'oil_entries';
   info: {
-    displayName: 'Oil entry';
+    description: '';
+    displayName: 'entry';
     pluralName: 'oil-entries';
     singularName: 'oil-entry';
   };
