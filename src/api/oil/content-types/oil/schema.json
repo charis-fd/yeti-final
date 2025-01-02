@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oils",
+  "info": {
+    "singularName": "oil",
+    "pluralName": "oils",
+    "displayName": "Oil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "odometer": {
+      "type": "integer",
+      "required": true
+    },
+    "distance": {
+      "type": "integer",
+      "required": true
+    },
+    "oil": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
